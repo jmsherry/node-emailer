@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mail Form</title>
+  <script src="/scripts/main.js" type="module"></script>
+</head>
+
+<body>
+  <form name="mail">
+    <div class="form-row">
+      <label for="to">To: <input type="email" name="to" id="to" placeholder="test@test.com" maxlength="50"></label>
+    </div>
+    <div class="form-row">
+      <label for="subject">Subject: <input type="text" name="subject" id="subject" placeholder="Dear somebody..."
+          maxlength="50"></label>
+    </div>
+    <div class="form-row">
+      <label for="text">Message: <textarea name="text" id="text" cols="30" rows="10"
+          maxlength="300"></textarea></label>
+    </div>
+    <div class="form-row">
+      <button type="reset">Reset</button>
+      <button type="submit">Send message!</button>
+    </div>
+  </form>
+</body>
+
+</html>
